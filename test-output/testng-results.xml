@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="5" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-21T11:24:27 IST" name="BlazeDemo Suite" finished-at="2026-09-21T11:25:32 IST" duration-ms="65801">
+    <groups>
+      <group name="Functional">
+        <method signature="FlightBookingTest.testToFindFlights(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" name="testToFindFlights" class="com.blazedemo.tests.FlightBookingTest"/>
+        <method signature="FlightBookingTest.testToCompleteFlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" name="testToCompleteFlightBooking" class="com.blazedemo.tests.FlightBookingTest"/>
+      </group> <!-- Functional -->
+      <group name="Negative">
+        <method signature="FlightBookingTest.testToCheckBlankCreditCard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" name="testToCheckBlankCreditCard" class="com.blazedemo.tests.FlightBookingTest"/>
+        <method signature="FlightBookingTest.testToCheckInvalidCreditCardCharacters(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" name="testToCheckInvalidCreditCardCharacters" class="com.blazedemo.tests.FlightBookingTest"/>
+        <method signature="FlightBookingTest.testToCheckSameDepartureAndDestinationCity(java.lang.String,java.lang.String)[pri:7, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" name="testToCheckSameDepartureAndDestinationCity" class="com.blazedemo.tests.FlightBookingTest"/>
+      </group> <!-- Negative -->
+      <group name="Data-driven">
+        <method signature="FlightBookingTest.testToPerformMultipleBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" name="testToPerformMultipleBooking" class="com.blazedemo.tests.FlightBookingTest"/>
+      </group> <!-- Data-driven -->
+      <group name="Smoke">
+        <method signature="FlightBookingTest.verifyHomePageTitle(java.lang.String)[pri:1, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" name="verifyHomePageTitle" class="com.blazedemo.tests.FlightBookingTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2026-09-21T11:24:27 IST" name="BlazeDemo Tests" finished-at="2026-09-21T11:25:32 IST" duration-ms="65801">
+      <class name="com.blazedemo.tests.FlightBookingTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:24:27 IST" name="launchBrowser" finished-at="2026-09-21T11:24:35 IST" duration-ms="7553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:24:27 IST" name="launchBrowser" finished-at="2026-09-21T11:24:35 IST" duration-ms="7422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:24:27 IST" name="launchBrowser" finished-at="2026-09-21T11:24:34 IST" duration-ms="6969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testToCompleteFlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:24:34 IST" name="testToCompleteFlightBooking" description="TC03 Complete a flight booking" data-provider="FlightBookingData" finished-at="2026-09-21T11:24:53 IST" duration-ms="19314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Boston]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rick Tas]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[End Street]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Indi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Indiana]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[52112]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1234567890123456]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2030]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Rick Tas]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Thank you for your purchase today!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToCompleteFlightBooking -->
+        <test-method signature="verifyHomePageTitle(java.lang.String)[pri:1, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:24:35 IST" name="verifyHomePageTitle" description="TC01 Verify the homepage loads and dropdowns visible." data-provider="PageTitleData" finished-at="2026-09-21T11:24:35 IST" duration-ms="567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BlazeDemo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method signature="testToFindFlights(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:24:35 IST" name="testToFindFlights" description="TC02 Search flights with valid cities." data-provider="FindFlightsData" finished-at="2026-09-21T11:24:37 IST" duration-ms="2577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Buenos Aires]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToFindFlights -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:24:35 IST" name="terminateBrowser" finished-at="2026-09-21T11:24:39 IST" duration-ms="3602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:24:37 IST" name="terminateBrowser" finished-at="2026-09-21T11:24:39 IST" duration-ms="1464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:24:39 IST" name="launchBrowser" finished-at="2026-09-21T11:24:43 IST" duration-ms="4715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:24:39 IST" name="launchBrowser" finished-at="2026-09-21T11:24:44 IST" duration-ms="5665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:24:39 IST" name="launchBrowser" finished-at="2026-09-21T11:24:47 IST" duration-ms="8132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testToCheckBlankCreditCard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:24:43 IST" name="testToCheckBlankCreditCard" description="TC05 Blank credit card" data-provider="BlankCreditCardData" finished-at="2026-09-21T11:25:18 IST" duration-ms="34086" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Buenos Aires]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rick Tig]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[167 End Street]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Indianapolis]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Indiana]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[52112]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2030]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Rick Tig]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Purchase page is not displayed. Exception occured: Expected condition failed: waiting for visibility of element found by By.xpath: //input[@value='Purchase Flight'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Purchase Flight']"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.52, chrome: {chromedriverVersion: 153.0.8010.52 (78e5e45d4bb4..., userDataDir: C:\Users\Amul\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62218}, goog:processID: 16248, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62218/devtoo..., se:cdpVersion: 153.0.8010.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a811a5edfa23e12343823baf6c59977d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Purchase page is not displayed. Exception occured: Expected condition failed: waiting for visibility of element found by By.xpath: //input[@value='Purchase Flight'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Purchase Flight']"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.52, chrome: {chromedriverVersion: 153.0.8010.52 (78e5e45d4bb4..., userDataDir: C:\Users\Amul\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62218}, goog:processID: 16248, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62218/devtoo..., se:cdpVersion: 153.0.8010.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a811a5edfa23e12343823baf6c59977d
+at com.blazedemo.pages.PurchasePage.isPageDisplayed(PurchasePage.java:39)
+at com.blazedemo.tests.FlightBookingTest.testToCheckBlankCreditCard(FlightBookingTest.java:90)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToCheckBlankCreditCard -->
+        <test-method signature="testToPerformMultipleBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:24:44 IST" name="testToPerformMultipleBooking" description="TC04 Multiple bookings with different data sets" data-provider="MultipleBookingData" finished-at="2026-09-21T11:24:53 IST" duration-ms="8676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[43]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Avenue Street]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Nerwak]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[New Jersy]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[41118]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1234567890123456]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2027]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Thank you for your purchase today!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToPerformMultipleBooking -->
+        <test-method signature="testToPerformMultipleBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:24:47 IST" name="testToPerformMultipleBooking" description="TC04 Multiple bookings with different data sets" data-provider="MultipleBookingData" finished-at="2026-09-21T11:24:57 IST" duration-ms="10534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Boston]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Berlin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[David Jes]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Main Street]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[NY]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[NY]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[51123]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4567890123455678]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2027]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[David Jes]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Thank you for your purchase today!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToPerformMultipleBooking -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:24:53 IST" name="terminateBrowser" finished-at="2026-09-21T11:24:59 IST" duration-ms="5491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:24:53 IST" name="terminateBrowser" finished-at="2026-09-21T11:24:59 IST" duration-ms="5972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:24:57 IST" name="terminateBrowser" finished-at="2026-09-21T11:24:59 IST" duration-ms="1772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:24:59 IST" name="launchBrowser" finished-at="2026-09-21T11:25:04 IST" duration-ms="4436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:24:59 IST" name="launchBrowser" finished-at="2026-09-21T11:25:03 IST" duration-ms="3934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testToCheckSameDepartureAndDestinationCity(java.lang.String,java.lang.String)[pri:7, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:25:03 IST" name="testToCheckSameDepartureAndDestinationCity" description="TC07 Same departure and destination city" data-provider="DuplicateCityData" finished-at="2026-09-21T11:25:26 IST" duration-ms="22777" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Boston]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Boston]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Failed to complete flight search on Home page due to: Cannot locate option with text: Boston
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Failed to complete flight search on Home page due to: Cannot locate option with text: Boston
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: driver.version: unknown
+at com.blazedemo.pages.HomePage.searchFlights(HomePage.java:106)
+at com.blazedemo.tests.FlightBookingTest.testToCheckSameDepartureAndDestinationCity(FlightBookingTest.java:118)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToCheckSameDepartureAndDestinationCity -->
+        <test-method signature="testToCheckInvalidCreditCardCharacters(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:25:04 IST" name="testToCheckInvalidCreditCardCharacters" description="TC06 Invalid credit card characters" data-provider="InvalidCreditCardData" finished-at="2026-09-21T11:25:32 IST" duration-ms="28162" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Buenos Aires]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rick Tig]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[167 End Street]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Indianapolis]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Indiana]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[52112]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[!@#$%^7890)(*&65$#23$%]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2030]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Rick Tig]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Purchase page is not displayed. Exception occured: Expected condition failed: waiting for visibility of element found by By.xpath: //input[@value='Purchase Flight'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Purchase Flight']"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.52, chrome: {chromedriverVersion: 153.0.8010.52 (78e5e45d4bb4..., userDataDir: C:\Users\Amul\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54932}, goog:processID: 24572, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54932/devtoo..., se:cdpVersion: 153.0.8010.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd6d71925c6ef39aaa760de86d10b554]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Purchase page is not displayed. Exception occured: Expected condition failed: waiting for visibility of element found by By.xpath: //input[@value='Purchase Flight'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Purchase Flight']"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.52, chrome: {chromedriverVersion: 153.0.8010.52 (78e5e45d4bb4..., userDataDir: C:\Users\Amul\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54932}, goog:processID: 24572, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54932/devtoo..., se:cdpVersion: 153.0.8010.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd6d71925c6ef39aaa760de86d10b554
+at com.blazedemo.pages.PurchasePage.isPageDisplayed(PurchasePage.java:39)
+at com.blazedemo.tests.FlightBookingTest.testToCheckInvalidCreditCardCharacters(FlightBookingTest.java:107)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToCheckInvalidCreditCardCharacters -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:25:18 IST" name="terminateBrowser" finished-at="2026-09-21T11:25:20 IST" duration-ms="1809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:25:26 IST" name="terminateBrowser" finished-at="2026-09-21T11:25:27 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@411f53a0]" started-at="2026-09-21T11:25:32 IST" name="terminateBrowser" finished-at="2026-09-21T11:25:32 IST" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.blazedemo.tests.FlightBookingTest -->
+    </test> <!-- BlazeDemo Tests -->
+  </suite> <!-- BlazeDemo Suite -->
+</testng-results>

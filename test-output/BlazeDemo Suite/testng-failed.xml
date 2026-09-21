@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [BlazeDemo Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="Chrome"/>
+  <listeners>
+    <listener class-name="com.blazedemo.listeners.TestListeners"/>
+  </listeners>
+  <test thread-count="3" parallel="methods" name="BlazeDemo Tests(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+        <include name="Functional"/>
+        <include name="Data-driven"/>
+        <include name="Negative"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.blazedemo.tests.FlightBookingTest">
+        <methods>
+          <include name="terminateBrowser"/>
+          <include name="testToCheckBlankCreditCard" invocation-numbers="0"/>
+          <include name="launchBrowser"/>
+          <include name="testToCheckInvalidCreditCardCharacters" invocation-numbers="0"/>
+          <include name="testToCheckSameDepartureAndDestinationCity" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.blazedemo.tests.FlightBookingTest -->
+    </classes>
+  </test> <!-- BlazeDemo Tests(failed) -->
+</suite> <!-- Failed suite [BlazeDemo Suite] -->
