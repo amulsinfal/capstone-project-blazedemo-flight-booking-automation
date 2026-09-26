@@ -11,7 +11,7 @@
 		<maven.compiler.target>21</maven.compiler.target>
 	</properties>
 	<dependencies>
-	<!-- Source: shttps://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+	<!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
