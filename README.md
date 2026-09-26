@@ -26,7 +26,7 @@
 
 ### **Project Structure:**  
 <br>
-<img width="560" height="935" alt="eclipse_NYDapp02FK" src="https://github.com/user-attachments/assets/77175c5f-ae5d-45ea-96c6-c6a14d63f1da" />
+<img width="515" height="935" alt="image" src="https://github.com/user-attachments/assets/f951d4bf-22a2-49ee-a333-a4422e90c43b" />
 
 ### **Packages:**
 - **com.blazedemo.base** - It contains BaseTest.java, which is the parent class for all the test classes.
@@ -52,7 +52,7 @@ The testng.xml file is the entry point for the execution of the test suite. It c
 
 ### Reporting:
 ExtentReports generated in html format.
-<img width="1017" height="1031" alt="chrome_11ptAxkZMU" src="https://github.com/user-attachments/assets/91bea384-b0a3-46cc-a460-11b943e3b676" />
+<img width="1200" height="1031" alt="image" src="https://github.com/user-attachments/assets/9796a871-f11c-4d65-8255-d581310e38cd" />
 
 ### **Run Test via CLI:**
 **Command used:** 
